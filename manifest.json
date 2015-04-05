@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Resistance contributions",
+  "name": "Resistance Contributions",
   "description": "Change Ingress registance color of GitHub contributions",
   "version": "1.0.0",
   "icons": {
