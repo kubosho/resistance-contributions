@@ -10,3 +10,8 @@ This Chrome extension changes the display of contributions on GitHub to resistan
 **after:**
 
 ![after](https://cdn.rawgit.com/kubosho/resistance-contributions/f6f6d64508d588a01a28e7052726ba730526fbad/screenshot/after.png)
+
+Download
+--------
+
+https://chrome.google.com/webstore/detail/resistance-contributions/codbppehieinnfafggcefkipfajcapep
