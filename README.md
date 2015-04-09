@@ -1,6 +1,8 @@
 Resistance Contributions
 ========================
 
+[![MIT License](http://img.shields.io/badge/license-MIT-green.svg)](https://github.com/kubosho/resistance-contributions/blob/master/LICENSE.txt)
+
 This Chrome extension changes the display of contributions on GitHub to resistance colors of the [Ingress](//www.ingress.com/).
 
 **before:**
