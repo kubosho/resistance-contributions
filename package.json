@@ -1,0 +1,29 @@
+{
+  "name": "resistance-contributions",
+  "version": "1.0.0",
+  "description": "Change Ingress registance color of GitHub contributions",
+  "main": "main.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kubosho/resistance-contributions.git"
+  },
+  "keywords": [
+    "Chrome Extension",
+    "GitHub",
+    "Ingress"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kubosho/resistance-contributions/issues"
+  },
+  "homepage": "https://github.com/kubosho/resistance-contributions#readme",
+  "private": true,
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "jsdom": "^11.3.0"
+  }
+}
