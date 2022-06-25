@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Resistance Contributions",
   "description": "Change Ingress registance color of GitHub contributions",
   "version": "1.0.0",
@@ -9,13 +9,22 @@
     "128": "icon128.png"
   },
   "permissions": [
-    "tabs",
+    "tabs"
+  ],
+  "host_permissions": [
     "https://github.com/*"
+  ],
+  "optional_host_permissions": [
+    "*://*/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
-      "js": ["main.js"],
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "build/main.js"
+      ],
       "run_at": "document_idle"
     }
   ]
