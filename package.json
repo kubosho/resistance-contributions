@@ -4,7 +4,8 @@
   "description": "Change Ingress registance color of GitHub contributions",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
     "test": "vitest run"
   },
   "repository": {
