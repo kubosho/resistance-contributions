@@ -4,7 +4,7 @@
   "description": "Change Ingress registance color of GitHub contributions",
   "main": "dist/main.js",
   "scripts": {
-    "test": "ava"
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
