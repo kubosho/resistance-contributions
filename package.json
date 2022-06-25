@@ -25,6 +25,7 @@
   "homepage": "https://github.com/kubosho/resistance-contributions#readme",
   "private": true,
   "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.12",
     "@types/jsdom": "^16.2.14",
     "jsdom": "^19.0.0",
     "rimraf": "^3.0.2",
