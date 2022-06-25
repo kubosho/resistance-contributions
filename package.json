@@ -2,7 +2,7 @@
   "name": "resistance-contributions",
   "version": "1.0.0",
   "description": "Change Ingress registance color of GitHub contributions",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "ava"
   },
