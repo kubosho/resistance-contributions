@@ -11,12 +11,6 @@
   "permissions": [
     "tabs"
   ],
-  "host_permissions": [
-    "https://github.com/*"
-  ],
-  "optional_host_permissions": [
-    "*://*/*"
-  ],
   "content_scripts": [
     {
       "matches": [
