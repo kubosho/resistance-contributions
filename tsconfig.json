@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "build",
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "vite.config.ts",
+    "**/__mock__",
+    "**/__tests__"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+  ]
+}
