@@ -5,6 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "clean": "rimraf dist",
+    "dev": "vite",
     "build": "tsc && vite build",
     "test": "vitest run"
   },
