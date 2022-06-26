@@ -5,13 +5,21 @@ Resistance Contributions
 
 This Chrome extension changes the display of contributions on GitHub to resistance colors of the [Ingress](//www.ingress.com/).
 
-**before:**
+**Light:**
 
-![before](https://cdn.rawgit.com/kubosho/resistance-contributions/f6f6d64508d588a01a28e7052726ba730526fbad/screenshot/before.png)
+![Light theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_light.png)
 
-**after:**
+**Dark Default:**
 
-![after](https://cdn.rawgit.com/kubosho/resistance-contributions/f6f6d64508d588a01a28e7052726ba730526fbad/screenshot/after.png)
+![Dark default theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_default.png)
+
+**Dark High Contrast:**
+
+![Dark high contrast theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_highcontrast.png)
+
+**Dark Dimmed:**
+
+![Dark dimmed theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_dimmed.png)
 
 Download
 --------
