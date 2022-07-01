@@ -1,4 +1,4 @@
-import { beforeAll, expect, test } from 'vitest'
+import { beforeAll, expect, test, vi } from 'vitest'
 import { createJsDomWindow } from '../../setup_jsdom/create_jsdom_window'
 import { setupStorageForGlobalThis } from '../../global_object/storage'
 import { replaceGlobalThisWithJsDom } from '../../setup_jsdom/replace_global_this_with_jsdom'
@@ -32,14 +32,24 @@ test('getColorMode: If color mode is light, ColorMode.Light is returned', () => 
 
 test('getColorMode: If color mode is dark, ColorMode.Dark is returned', () => {
   const win = createJsDomWindow(githubDarkModeHtmlString, {
-    customHtmlElementStartString:
-      '<html lang="en" data-color-mode="dark" data-dark-theme="dark">',
     customBodyElementStartString: '<body data-theme="night">',
   })
   const cleanup = replaceGlobalThisWithJsDom(win)
 
   const color = getColorMode()
   expect(color).toBe(ColorMode.Dark)
+
+  cleanup()
+})
+
+test('getColorMode: If color mode is nothing, returned null', () => {
+  const win = createJsDomWindow(githubDarkModeHtmlString, {
+    customBodyElementStartString: '<body>',
+  })
+  const cleanup = replaceGlobalThisWithJsDom(win)
+
+  const color = getColorMode()
+  expect(color).toBe(null)
 
   cleanup()
 })
