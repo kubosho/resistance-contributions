@@ -39,6 +39,22 @@ export function getColorMode(): ColorMode | null {
   const bodyElement = document.body
   const colorMode = bodyElement.dataset.theme
 
+  if (
+    !colorMode &&
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
+    return ColorMode.Dark
+  }
+
+  if (
+    !colorMode &&
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: light)').matches
+  ) {
+    return ColorMode.Light
+  }
+
   if (!(colorMode === ColorMode.Light || colorMode === ColorMode.Dark)) {
     return null
   }
