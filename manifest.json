@@ -8,9 +8,6 @@
     "48": "assets/icon128.png",
     "128": "assets/icon128.png"
   },
-  "permissions": [
-    "tabs"
-  ],
   "content_scripts": [
     {
       "matches": [
