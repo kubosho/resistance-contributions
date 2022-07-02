@@ -21,10 +21,10 @@ export enum LightResistanceColor {
 
 export enum DarkResistanceColor {
   Level0 = '#161b22',
-  Level1 = '#0e2a45',
-  Level2 = '#003a6e',
-  Level3 = '#2675a6',
-  Level4 = '#39a0d4',
+  Level1 = '#143f66',
+  Level2 = '#005fb3',
+  Level3 = '#3195d4',
+  Level4 = '#45c1ff',
 }
 
 export enum DarkHighlightResistanceColor {
