@@ -7,19 +7,19 @@ This Chrome extension changes the display of contributions on GitHub to resistan
 
 **Light:**
 
-![Light theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_light.png)
+![Light theme](https://cdn.rawgit.com/kubosho/resistance-contributions@master/assets/screenshot/readme/light.png)
 
 **Dark Default:**
 
-![Dark default theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_default.png)
+![Dark default theme](https://cdn.rawgit.com/kubosho/resistance-contributions@master/assets/screenshot/readme/dark_default.png)
 
 **Dark High Contrast:**
 
-![Dark high contrast theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_highcontrast.png)
+![Dark high contrast theme](https://cdn.rawgit.com/kubosho/resistance-contributions@master/assets/screenshot/readme/dark_high_contrast.png)
 
 **Dark Dimmed:**
 
-![Dark dimmed theme](https://cdn.rawgit.com/kubosho/resistance-contributions/92c469b/screenshot/github_com_dark_dimmed.png)
+![Dark dimmed theme](https://cdn.rawgit.com/kubosho/resistance-contributions@master/assets/screenshot/readme/dark_dimmed.png)
 
 Download
 --------
