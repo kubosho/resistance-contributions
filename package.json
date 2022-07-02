@@ -1,6 +1,6 @@
 {
   "name": "resistance-contributions",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Change Ingress registance color of GitHub contributions",
   "scripts": {
     "clean": "rimraf dist",
